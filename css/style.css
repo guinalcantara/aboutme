@@ -296,8 +296,8 @@ textarea {
           object-fit: contain;
           display: block;
           margin-bottom: 10px;
-          border-radius: 5px; /* adicione uma borda quadrada com 5px de raio */
-          box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); /* adicione uma sombra suave */
+          border-radius: 5px;
+          box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
         }
         
         .project-title {
@@ -415,6 +415,29 @@ textarea {
     @media only screen and (max-width: 37.5em) {
       .contact__btn {
         width: 100%; } }
+
+.prints {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+}
+.imagens-site, .imagens-app {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+}
+.imagens-site img, .imagens-app img {
+          width: 100%;
+          max-width: 400px;
+          max-height: 500px;
+          margin: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
 
 .project-cs-hero {
   color: #fff;
